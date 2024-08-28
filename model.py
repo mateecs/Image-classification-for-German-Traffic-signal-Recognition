@@ -5,7 +5,7 @@ import seaborn as sns
 #import tensorflow as tf
 import re
 import os
-import cv2
+#import cv2
 from tensorflow import keras
 from PIL import Image
 from sklearn.model_selection import train_test_split
