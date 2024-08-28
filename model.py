@@ -120,7 +120,7 @@ def load_Train_data(data_dir):
 
 
 def predict(image):
-    model = loadmodel('model/latest model.h5')
+    model = loadmodel('latest model.h5')
     processed_image = preprocess_image(image)
     prediction = model.predict(processed_image)
     entropy = calcuate_entropy(prediction)
